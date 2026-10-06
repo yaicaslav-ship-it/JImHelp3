@@ -3,7 +3,8 @@
   "package": "com.prediction.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "LivingEntityMixin"
+    "MinecraftClientMixin",
+    "ClientPlayerInteractionManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

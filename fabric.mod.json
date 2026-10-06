@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "prediction",
+  "version": "${version}",
+  "name": "Prediction",
+  "description": "Позволяет ломать блоки сквозь хитбоксы игроков",
+  "authors": ["Author"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.prediction.PredictionClient"
+    ]
+  },
+  "mixins": [
+    "prediction.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
